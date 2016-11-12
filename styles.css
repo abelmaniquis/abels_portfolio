@@ -150,6 +150,10 @@ p{
     border-bottom:1px solid;
 }
 
+.projectTitle{
+    text-align:center;
+}
+
 #page{
     width:1000px;
     margin:0 auto;
