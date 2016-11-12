@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald:300|Abel' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    
+
 <div id="wrapper">
 	<div id="header-wrapper">
 		<div id="header" class="container">
@@ -16,7 +16,6 @@
 			</div>
 			<div id="menu">
 				<ul class="menu-list">
-				<!--<li class="current_page_item"><a href="#"></a></li>-->
 					<li><a href ="#">Homepage</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Resume</a></li>
@@ -27,36 +26,32 @@
 			</div>
 		</div>
 	</div>
- </div>  
+ </div>
+ 
 <!--Projects-->
 <div>
+	
 <h1 class ="section-title"> My Portfolio</h1>
 </div>
 	<div id="projects">
+		
+	<div className="intro">
+		<p>In the beginning, I built some simpler projects with HTML, CSS and JQuery.</p>
+	</div>
 	
 	<table class="project-row">
-		<td class="project" id="karma-clone">
-		<a href="http://abelmaniquis.github.io/Landing-Page/">
-		<img src="images/karma-page-screenshot.png"/>
-		</a>
-		<p>Karma Landing Page Clone</p>
-		</td>
-	
 		<td class="project" id="shopping-list">
 		<a href="http://abelmaniquis.github.io/shopping_list/">
 		<img src="images/shopping-list-screenshot.png"/>
 		</a>
 		<p>Shopping List App</p>
 		</td>
-	
-	</table>
-
-	<table class="project-row">
+		
 		<td class="project" id="streetfighter">
 			<a href="https://abelmaniquis.github.io/my_street_fighter_project/index.html">
 			<img src="images/streetfighter-screenshot.png">
 			</a>
-			<p>Streetfighter App</p>
+			<p>Using jQuery to create a gif animation</p>
 		</td>
 		<td class="project" id="batman-quiz">
 			<a href="https://abelmaniquis.github.io/quiz_app/">
@@ -65,25 +60,44 @@
 			<p>Batman Quiz</p>
 		</td>
 	</table>
-
-
-	<table class="project-row">
-		<td class="project" id="youtube-search">
-			<a href=" https://abelmaniquis.github.io/youtube_search/">
-			<img src="images/youtube-search-app.png">
-			</a>
-			<p>Youtube Search App</p>
-		</td>
-		<td class="project" id="api-hack">
-			<a href="https://abelmaniquis.github.io/foursquare_itinerary/">
-			<img src="images/api-hack-screenshot.png">
-			</a>
-			<p>Api Hack</p>
-		</td>
-	</table>
-
+	
+<div class="bigProject" id="fs-maps-project">
+	<h2>Foursquare Itinerary</h2>
+	<a href="https://abelmaniquis.github.io/foursquare_itinerary/">
+	<img src="images/api-hack-screenshot.png">
+	</a>
+	
+	<p>
+		This is my first project that involved making API calls.
+		This app makes use of the Google Maps and Foursquare Apis and uses them
+		in conjunction to help users chart out an itinerary of destinations.
+	</p>
+	<p>
+		This also makes use of the typeAhead jquery library.
+	</p>
 </div>
 
+<div class="bigProject" id="chatroom">
+	<h2>Chatroom</h2>
+	<p>
+		Here is a chatroom application that I built using Node.js, MongoDB, jQuery, Passportjs, and socket.io.
+		While building this application, my primary goal was to use as many full stack technologies
+		as possible, to create something social.
+	</p>
+</div>
+
+<div class="bigProject" id="marketWatch">
+	<h2>MarketWatch</h2>
+	<p>
+		MarketWatch is a Stock Market app that uses React, and the quandl.com API.
+		Right now it's a watchlist that allows a User to keep track of a list
+		of stocks of their choosing.
+	</p>
+	<p>
+		My goal is to turn the application into a full stock market game.
+	</p>
+</div>
+	
 <div id="contact-info">
 	<ul>Contact:
 		<li>email: abelmaniquis@gmail.com</li>
