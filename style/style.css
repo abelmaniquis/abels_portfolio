@@ -18,6 +18,11 @@ h1,h2,h3{
     color:black;
 }
 
+#intro-title{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
 
 .section-title{
     margin-left:auto;
@@ -77,6 +82,10 @@ div{
 }
 
 #projects{
+    background-color:white;
+}
+
+#introduction{
     background-color:white;
 }
 
@@ -141,7 +150,8 @@ p{
 .post .title a{
     border:none;
     text-decoration:none;
-    color:#222222;
+    color:green;
+    /*color:#222222;*/
 }
 
 .post{
@@ -167,12 +177,6 @@ p{
     padding: 0px 0px;
 }
 
-.container{
-    width:1000px;
-    margin: 0 auto;
-}
-
-
 #header-wrapper{
     overflow:hidden;
 }
@@ -180,6 +184,13 @@ p{
 #wrapper{
     background:#ffffff;
 }
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+
 
 #contact-info{
     background-color:black;
