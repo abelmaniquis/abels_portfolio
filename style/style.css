@@ -35,10 +35,29 @@ h1,h2,h3 {
 }
 
 .project{
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 1.3em;
+    text-align:left;
+}
+
+.project h1{
+    font-size:15em;
+}
+
+#project_one{
+    color:red;
+}
+
+#project_one :hover {
+    background: red;
+    text-decoration: none;
+    color: white;
+}
+
+#project_two{
+    color:blue;
+}
+
+#project_three{
+    color:green;
 }
 
 img {
