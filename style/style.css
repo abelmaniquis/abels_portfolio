@@ -135,7 +135,15 @@ p {
   width: 1000px;
   margin: 0 auto; }
 
-@media screen and (max-width: 650px) {
+#contact-info {
+  list-style: none;
+  text-align: center; }
+
+#contact-info li {
+  display: inline;
+  padding-right: 3em; }
+
+@media screen and (max-width: 940px) {
   body {
     max-width: 650px;
     text-align: center; }
@@ -186,6 +194,13 @@ p {
     border: black; }
 
   .project-img {
-    height: 10em; } }
+    height: 10em; }
+
+  #contact-info {
+    text-align: center; }
+
+  li {
+    display: block;
+    padding-right: 2em; } }
 
 /*# sourceMappingURL=style.css.map */

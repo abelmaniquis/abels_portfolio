@@ -1,4 +1,5 @@
 $body-color: #5b5b5b
+$max-width-two: 940px
 $max-width-one: 650px
 
 
@@ -161,8 +162,16 @@ p
     width: 1000px
     margin: 0 auto
 
+#contact-info
+    list-style: none
+    text-align: center
+    
+#contact-info
+    li
+        display: inline
+        padding-right: 3em
 
-@media screen and (max-width: $max-width-one) 
+@media screen and (max-width: $max-width-two) 
     body
         max-width: $max-width-one
         text-align: center
@@ -224,4 +233,12 @@ p
     .project-img
         height: 10em
     
+    #contact-info
+        text-align: center
     
+    #contact-info
+    li
+        display: block
+        padding-right: 2em
+
+
