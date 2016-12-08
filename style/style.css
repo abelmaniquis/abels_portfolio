@@ -19,7 +19,15 @@ h1 {
   height: 1.5em;
   font-size: 2em; }
 
-.project h1 {
+#introduction {
+  margin-left: 10em; }
+
+#intro-text {
+  padding: 3px;
+  width: 10px;
+  margin: 0 auto; }
+
+.project {
   text-align: center; }
 
 #menu-list {
@@ -31,8 +39,14 @@ a:link {
 div {
   display: block; }
 
+#intro-container {
+  max-width: 1000px; }
+
+#intro-text {
+  display: inline; }
+
 p {
-  display: inline;
+  display: block;
   font-size: 2em; }
 
 #logo {
@@ -94,6 +108,9 @@ p {
   margin-top: 10em;
   text-align: center; }
 
+.project {
+  padding-bottom: 3em; }
+
 .project-img {
   height: 15em; }
 
@@ -120,11 +137,25 @@ p {
 
 @media screen and (max-width: 650px) {
   body {
+    max-width: 650px;
     text-align: center; }
 
   h1 {
     font-size: 0.05px;
     width: 100%; }
+
+  .project {
+    text-align: center; }
+
+  #introduction {
+    text-align: center;
+    max-width: 500px;
+    display: inline;
+    text-align: center; }
+
+  #introduction p {
+    text-align: center;
+    max-width: 500px; }
 
   #header {
     text-align: center;
@@ -156,15 +187,7 @@ p {
     color: #1f1f1f;
     border: black; }
 
-  #introduction {
-    display: inline;
-    text-align: center; }
-
   .project-img {
-    height: 12em; }
-
-  .introduction p {
-    text-align: center;
-    font-size: 3em; } }
+    height: 10em; } }
 
 /*# sourceMappingURL=style.css.map */
