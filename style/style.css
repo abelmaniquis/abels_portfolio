@@ -17,9 +17,13 @@ h1,h2,h3 {
 }
 
 h1 {
-    width: 45em;
+    width: 42em;
     height: 1.5em;
     font-size: 2em;
+}
+
+.project h1 {
+    text-align:center;
 }
 
 #menu-list {
@@ -101,6 +105,10 @@ p {
     border: none;
     text-decoration: none;
     color: green;
+}
+
+.project h1 {
+    text-align:center;
 }
 
 .post {
@@ -195,7 +203,11 @@ p {
     #introduction{
         text-align:center;
     }
-
+    
+    .project-img{
+        height:12em;
+    }
+    
     p{
         font-size:1em;
     }
