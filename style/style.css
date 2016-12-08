@@ -148,14 +148,12 @@ p {
     text-align: center; }
 
   #introduction {
-    text-align: center;
+    margin-left: 0;
     max-width: 500px;
-    display: inline;
     text-align: center; }
 
   #introduction p {
-    text-align: center;
-    max-width: 500px; }
+    text-align: center; }
 
   #header {
     text-align: center;
