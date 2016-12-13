@@ -1,7 +1,6 @@
 Portfolio Link:
 https://abelmaniquis.github.io/abels_portfolio/
 
-
 Karma Landing Page: http://abelmaniquis.github.io/Landing-Page/
 
 Shopping List App: http://abelmaniquis.github.io/shopping_list/
