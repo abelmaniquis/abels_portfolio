@@ -13,5 +13,4 @@ Quiz App: https://abelmaniquis.github.io/quiz_app/
 
 Foursquare Itinerary: https://abelmaniquis.github.io/foursquare_itinerary/
 
-
 Hot or Cold App (Add after restyling): http://abelmaniquis.github.io/my_hot_cold_app/
