@@ -1,8 +1,6 @@
 $(document).ready(portFunction);
 
 function portFunction(){
-    console.log("Hello, welcome to my profile, please feel free to visit any of my above projects!");
-    fadeInElements();
 }
 
 function fadeInElements(){

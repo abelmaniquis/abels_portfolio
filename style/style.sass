@@ -1,8 +1,30 @@
 $body-color: #5b5b5b
+
 $max-width-two: 940px
-$max-width-one: 650px
+$max-width-one: 900px
+
+$galaxy-width: 360px
+$galaxy-height: 640px
+
+$nexus-width: 412px
+$nexus-height: 732px
+
+$iphone5-width: 320px
+$iphone5-height: 568px
+
+$iphone6-width: 375px
+$iphone6-height: 667px
+
+$iphone6p-width: 414px
+$iphone6p-height: 736px
+
 $ipad-width: 768px
 $ipad-height: 1024px
+
+
+$ipad-pro-width: 1024px
+$ipad-pro-height: 1366px
+
 
 body 
     display: block
@@ -21,24 +43,17 @@ h1,h2,h3
     font-weight: 200
     color: black
 
-
 h1 
     width: 42em
     height: 1.5em
     font-size: 2em
 
 #introduction
-    margin-left: 10em
-
-#intro-text
-    padding: 3px
-    width: 10px
-    margin: 0 auto
-    
+    margin-left: 25%
 
 .project 
     h1 
-    text-align: center
+        text-align: center
 
 
 #menu-list 
@@ -48,31 +63,36 @@ h1
 a:link
     text-decoration: none
 
-
-
 div 
     display: block
 
 #intro-container
     max-width: 75%
     
+@media screen and (min-width: 1700px)
+    #intro-container
+        max-width: 100%
+        padding: 2em
+        text-align: center
+        
 #intro-text
     display: inline
-
+    margin: 0 auto
+    
 p 
     display: block
     font-size: 2em
 
 #logo 
     float: left
-    width: 300px
+    width: 16em
     margin: 0
     padding: 0
 
 
 #logo h1 
-    line-height: 120px
-    letter-spacing: -2px
+    line-height: 2em
+    letter-spacing: 0.005em
     font-size: 3.8em
 
 
@@ -85,9 +105,7 @@ p
     padding: 0
 
 #menu ul 
-    float: right
-    padding: 20px 0px 0px 0px
-
+    padding: 1em
 
 #menu 
     ul 
@@ -102,7 +120,6 @@ p
     padding: 0px 20px 0px 20px
     text-decoration: none
     text-align: left
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, .2)
     text-transform: uppercase
     font-family: 'Oswald', sans-serif
     font-size: 16px
@@ -136,16 +153,14 @@ p
 .project-img
     height: 15em
 
-
 #page 
     width: 1000px
     margin: 0 auto
     padding: 30px 0px
 
 
-#header 
-    width: 1000px
-    height: 150px
+#header
+    height: 9.6em
     margin: 0 auto
     padding: 0px 0px
 
@@ -171,10 +186,10 @@ p
         display: inline
         padding-right: 3em
 
-@media screen and (max-width: $max-width-two) 
+@media screen and (max-width: $max-width-one) 
     body
         max-width: $max-width-one
-        text-align: center
+
     
     h1
         font-size: 0.05px
@@ -182,36 +197,32 @@ p
     
     .project
         h1
-        text-align: center
+            text-align: center
         
     #introduction
-        margin-left: 0
-        max-width: 500px
-        text-align: center
+        max-width: 100%
 
     #introduction 
         p
             text-align: center
+            font-size: 1.3em
         
     #header
         text-align: center
-        width: 100%
+        max-width: 100%
         height: 100%
         margin: 0 auto
         padding: 0px 0px
     
-    
-    
     h1,h2,h3
         text-align: center
-    
     
     #logo 
         text-align: center
     
     
     #menu 
-        width: 100%
+        max-width: 100%
         height: 100%
         margin-top: 5em
         text-align: center
@@ -237,28 +248,21 @@ p
         text-align: center
     
     #contact-info
-    li
-        display: block
-        padding-right: 2em
+        li
+            display: block
+            padding-right: 2em
 
-@media screen and (max-width: $ipad-width) and(max-height:$ipad-height) 
-    #logo h1 
-        line-height: 1em
-        letter-spacing: -2px
-        font-size: 3.8em
-        text-align: left
-    
-    #menu
-        width: 0%
-        height: 100%
-        margin-top: 2em
-        text-align: center
-        
-        
 
-@media screen and (min-width: 1700px) 
-    #intro-container
-        max-width: 100%
+@media screen and (max-width: $max-width-two)
+    body
+        max-width: $max-width-two
+
+@media screen and (max-width: $galaxy-width) and (max-height: $galaxy-height)
+    body
+        max-width: $galaxy-width
+        max-height: $galaxy-height
+    #logo h1
         text-align: center
+        font-size: 3em
     
     
