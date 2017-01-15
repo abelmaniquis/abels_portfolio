@@ -89,6 +89,9 @@ p {
   color: #1f1f1f;
   border: none; }
 
+a:hover {
+  color: green; }
+
 #menu a:hover,
 #menu .current_page_item a {
   background: black repeat;
